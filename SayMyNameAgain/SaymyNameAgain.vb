@@ -8,7 +8,7 @@ Option Compare Text
 Option Explicit On
 Option Strict On
 
-Module Module1
+Module SaymyNameAgain
 
     Sub Main()
         Dim name As String 'declares variable string
