@@ -11,11 +11,12 @@ Option Strict On
 Module Module1
 
     Sub Main()
-        Dim name As String
+        Dim name As String 'declares variable string
 
-        Console.WriteLine("Please enter your name: ")
-        name = Console.ReadLine()
+        Console.WriteLine("Please enter your name: ") 'user prompt
+        name = Console.ReadLine() 'assigns variable name with whatever user enters
 
+        '"If Then" command that checks if the name is a specified input, or default to the Else statement
         If name = "Emily" Then
             Console.WriteLine("Hello Emily, how are you today?")
         ElseIf name = "Joe" Then
